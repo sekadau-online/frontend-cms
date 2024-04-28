@@ -48,7 +48,7 @@
           {
             hid: 'og:image',
             name: 'og:image',
-            content: 'https://i.imgur.com/xKOCz0P.png'
+            content: 'https://cms-api.marimoli.com/storage/icon/marimoli.png'
           },
         ]
       }
