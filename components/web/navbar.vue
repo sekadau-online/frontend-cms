@@ -8,7 +8,7 @@
           </b-col>
           <b-col md="11">
             <h3 class="font-weight-bold">MARIMOLI</h3>
-            <p>Copyright © 2024 MARIMOLI.</p>
+            <p>Inspiratif Dinamis Kreatif</p>
           </b-col>
         </b-row>
       </b-container>
