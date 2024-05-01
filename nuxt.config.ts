@@ -1,5 +1,7 @@
-export default {
+import { defineNuxtConfig } from '@nuxt/bridge'
+export default defineNuxtConfig ({
 
+  bridge: false,
   // Enable Vuex
   vuex: false,
 
@@ -59,7 +61,19 @@ export default {
     'nuxt-multiselect',
     //https://github.com/avil13/vue-sweetalert2
     'vue-sweetalert2/nuxt',
+    //https://nuxt.com/modules/sitemap
+   // '@nuxtjs/sitemap',
   ],
+ // sitemap: {
+    // Your sitemap configuration goes here
+  //  hostname: 'https://253.marimoli.com',
+    // Exclude routes starting with /admin/
+  //  exclude: [
+   //   '/admin/*',
+   //   '/login',
+   //   '/logout'
+  //  ]
+ // },
 
   auth: {
     strategies: {
@@ -103,5 +117,5 @@ export default {
   },
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
-  build: {},
-}
+  build: {}
+})
