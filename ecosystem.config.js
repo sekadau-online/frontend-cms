@@ -30,7 +30,7 @@ module.exports = {
       repo: "https://github.com/sekadau-online/frontend-cms.git",
       path: "./private/frontend-cms", // Ubah path sesuai struktur proyek Anda
       "pre-deploy": "git fetch --all",
-      "post-deploy": "npm install && npm run build && pm2 reload ecosystem.config.js --env production"
+      "post-deploy": "npm install && npm run build && pm2 reload ecosystem.config.ts --env production"
     }
   }
 }
