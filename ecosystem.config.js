@@ -24,11 +24,11 @@ module.exports = {
   deploy: {
     production: {
       //user: "fauzan",
-      host: "103.175.81.253",
+      host: "127.0.0.1",
       //key: "./id_rsa",
       ref: "origin/master",
       repo: "https://github.com/sekadau-online/frontend-cms.git",
-      path: "/home/fauzan/frontend-cms", // Ubah path sesuai struktur proyek Anda
+      path: "./private/frontend-cms", // Ubah path sesuai struktur proyek Anda
       "pre-deploy": "git fetch --all",
       "post-deploy": "npm install && npm run build && pm2 reload ecosystem.config.js --env production"
     }
